@@ -1,0 +1,43 @@
+/*
+	Indice Globals:
+*/
+/*  #Style Main */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  height:100%; 
+  font-family:$body-font;
+  position:relative;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.button{
+	padding:3px 15px;
+	background:transparent;
+	color:$color-gray;
+	border:2px solid $color-gray;
+	font-size: 15px;
+	font-family:$body-font;
+	&:hover{
+		background:$color-gray;
+		color:$color-fucsia;
+	}
+}
+h3, h4{
+	margin:0;
+}
+.title-item{
+	font-size:25px;
+	color:$color-white;
+	margin:10px;
+	font-family:$title-font;
+}
+.subtitle-item{
+	background:$color-white;
+	padding:5px 15px;
+	color:$color-fucsia;
+	font-size:15px;
+	margin:10px 0;
+}

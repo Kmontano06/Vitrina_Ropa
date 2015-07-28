@@ -1,0 +1,30 @@
+.header-main{
+	width:100%;
+	text-align:center;
+	position:fixed;
+	background:#fff;
+	top:0px;
+}
+.main-logo{
+	width:10%;
+	margin:15px;
+}
+.content-filters{
+	background:$color-fucsia;
+	padding:20px;
+	margin: 0;
+}
+.select{
+	padding: 3px;
+	border: none;
+	width: 10%;
+	background: #color-gray;
+	color:$color-fucsia; 
+	font-size: 15px;
+	margin-right:10px;
+}
+.title-select{
+   color:$color-white; 
+   margin-right: 2px;
+   font-size: 17px; 
+}

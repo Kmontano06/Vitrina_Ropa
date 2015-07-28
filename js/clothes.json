@@ -1,0 +1,157 @@
+{
+	"Name" : "List Wears",
+	"Clothes":[
+							{	
+								"img":"img/wear1.jpg",
+								"type":"Sueter",
+								"brand":"Adidas",
+								"size":"Medium",
+								"price":"$50",
+								"gender":"Male",
+								"code":"001",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear2.jpg",
+								"type":"Sueter",
+								"brand":"Adidas",
+								"size":"Medium",
+								"price":"$50",
+								"gender":"Female",
+								"code":"002",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear10.jpg",
+								"type":"Blusa",
+								"brand":"Zac & Rachel",
+								"size":"Small",
+								"price":"$75",
+								"gender":"Female",
+								"code":"10",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear11.jpg",
+								"type":"Blusa",
+								"brand":"Bernard",
+								"size":"Medium",
+								"price":"$75",
+								"gender":"Female",
+								"code":"11",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear13.jpg",
+								"type":"Camisa",
+								"brand":"Aeropostal",
+								"size":"Small",
+								"price":"$80",
+								"gender":"Male",
+								"code":"13",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear12.jpg",
+								"type":"Camisa",
+								"brand":"Work Team",
+								"size":"Medium",
+								"price":"$80",
+								"gender":"Male",
+								"code":"12",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear3.jpg",
+								"type":"Pantalon",
+								"brand":"Lee",
+								"size":"Medium",
+								"price":"$100",
+								"gender":"Male",
+								"code":"003",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear4.jpg",
+								"type":"Pantalon",
+								"brand":"Lee",
+								"size":"Medium",
+								"price":"$100",
+								"gender":"Female",
+								"code":"004",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear14.jpg",
+								"type":"Camisa",
+								"brand":"Work Team",
+								"size":"Medium",
+								"price":"$100",
+								"gender":"Male",
+								"code":"14",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear5.jpg",
+								"type":"Zapatos",
+								"brand":"Caterpillar",
+								"size":"42",
+								"price":"$150",
+								"gender":"Male",
+								"code":"005",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear6.jpg",
+								"type":"Zapatos",
+								"brand":"Caterpillar",
+								"size":"35",
+								"price":"$150",
+								"gender":"Female",
+								"code":"006",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear7.jpg",
+								"type":"Vestido",
+								"brand":"Mango",
+								"size":"Medium",
+								"price":"$150",
+								"gender":"Female",
+								"code":"007",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear8.jpg",
+								"type":"Pantalon",
+								"brand":"Mango",
+								"size":"Medium",
+								"price":"$200",
+								"gender":"Female",
+								"code":"008",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear9.jpg",
+								"type":"Pantalon",
+								"brand":"Dickies",
+								"size":"Medium",
+								"price":"$200",
+								"gender":"Male",
+								"code":"009",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							},
+							{	
+								"img":"img/wear15.jpg",
+								"type":"Vestido",
+								"brand":"Mango",
+								"size":"Small",
+								"price":"$250",
+								"gender":"Female",
+								"code":"15",
+								"description":"Veritatis rerum eaque sunt quasi cum quam enim itaque iure doloribus."
+							}
+							
+						]
+				
+}
