@@ -7,21 +7,23 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<header class="header-main">
-		<img class="main-logo" src="img/logo.png">
-		<div class="content-filters">
-			<label class="title-select">Gender:</label>
-			<select id="gender" class="select select-gender">
-				<option class="gender-option" value="all">All</option>
-				<option class="gender-option" value="Female">Female</option>
-				<option class="gender-option" value="Male">Male</option>
-			</select>
-			<label class="title-select">Type:</label>
-			<select id="type" class="select select-type"></select>
-			<button class="button button-filters" onclick="Clothes.filtersProducts()">Filtrar</button>	
-		</div>
-	</header>
-	 <section class="section-products" id="content-products"></section>
+	<div class="opacity-content">
+		<header class="header-main">
+			<img class="main-logo" src="img/logo.png">
+			<div class="content-filters">
+				<label class="title-select">Gender:</label>
+				<select id="gender" class="select select-gender">
+					<option class="gender-option" value="all">All</option>
+					<option class="gender-option" value="Female">Female</option>
+					<option class="gender-option" value="Male">Male</option>
+				</select>
+				<label class="title-select">Type:</label>
+				<select id="type" class="select select-type"></select>
+				<button class="button button-filters" onclick="Clothes.filtersProducts()">Filtrar</button>	
+			</div>
+		</header>
+		 <section class="section-products" id="content-products"></section>
+	</div>
 	 <section id="show-product" class="section-popup"></section>
 	 <script type="text/javascript" src="js/script.js"></script>
 </body>

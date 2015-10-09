@@ -202,22 +202,25 @@ input[type="checkbox"], input[type="radio"] {
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  height: 100%;
   font-family: "Arvo", Arial, sans-serif;
-  position: relative; }
+  position: relative;
+  margin: 0; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
 
+body {
+  background: #000; }
+
 .button {
   padding: 3px 15px;
   background: transparent;
-  color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  color: #fff;
+  border: 2px solid #fff;
   font-size: 15px;
   font-family: "Arvo", Arial, sans-serif; }
   .button:hover {
-    background: #f2f2f2;
+    background: #fff;
     color: #b41859; }
 
 h3, h4 {
@@ -235,6 +238,9 @@ h3, h4 {
   color: #b41859;
   font-size: 15px;
   margin: 10px 0; }
+
+.opacity-content {
+  background: #fff; }
 
 .header-main {
   width: 100%;
@@ -267,7 +273,7 @@ h3, h4 {
   font-size: 17px; }
 
 .section-products {
-  margin-top: 215px; }
+  padding-top: 207px; }
 
 .content-list {
   list-style: none;
@@ -282,7 +288,8 @@ h3, h4 {
   padding: 30px;
   background: url(../img/background.png) no-repeat;
   background-size: 100% 100%;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
 
 .content-item-image {
   width: 100%; }
@@ -337,10 +344,37 @@ h3, h4 {
   background: url(../img/close.png) no-repeat;
   background-size: 100%;
   width: 5%;
-  height: 33px;
+  height: 40px;
   position: absolute;
   top: 15px;
-  right: 15px; }
+  right: 15px;
+  cursor: pointer; }
   .product-close-popup:hover {
     background: url(../img/close-hover.png) no-repeat;
     background-size: 100%; }
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.zoomIn {
+  display: block;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn; }
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }

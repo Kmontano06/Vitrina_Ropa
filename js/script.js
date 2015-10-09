@@ -73,7 +73,10 @@ var Clothes=(function(){
 	}
 	function showInfoProduct(code){
 		var info_product="";
-		document.getElementsByClassName("section-popup")[0].style.display="block";
+		document.getElementsByClassName("opacity-content")[0].style.opacity="0.20";
+		document.getElementsByClassName("section-popup")[0].className='section-popup animated zoomIn';
+
+
 		for(var i=0; i < arrayAll.length;i++){
 			if(code == arrayAll[i].code){
 				info_product='<div class="content-product-image"><h3 class="title-item title-product">'+arrayAll[i].type+'</h3><img class="image-product" src="'+arrayAll[i].img+'"><h3 class="title-item title-product">'+arrayAll[i].price+'</h3></div><div class="content-product-info"><p class="subtitle-item feature-product"> Brand: '+arrayAll[i].brand+'</p><p class="subtitle-item feature-product">Size: '+arrayAll[i].size+'</p><p class="subtitle-item feature-product">Gender: '+arrayAll[i].gender+'</p><p class="subtitle-item feature-product">Description: </br>'+arrayAll[i].description+'</p><img class="product-logo" src="img/logo.png"></div><div class="product-close-popup" onclick="Clothes.closePopUp()"></div>';
@@ -82,7 +85,9 @@ var Clothes=(function(){
 		document.getElementById("show-product").innerHTML=info_product;
 	}
 	function closePopUp(){
-		document.getElementsByClassName("section-popup")[0].style.display="none";
+		document.getElementsByClassName("section-popup")[0].className='section-popup';
+		document.getElementsByClassName("opacity-content")[0].style.opacity="1";
+
 	}
 	return{
 		filtersProducts:filtersProducts,
